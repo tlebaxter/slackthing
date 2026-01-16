@@ -10,5 +10,6 @@
     "macos"
   ],
   "isAudioSource": false,
-  "requires": []
+  "requires": [],
+  "repository": "https://github.com/tlebaxter/slackthing"
 }
