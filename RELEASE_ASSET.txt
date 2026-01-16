@@ -1,0 +1,2 @@
+This is a placeholder asset file for the DeskThing release system.
+The actual application files are included in the release tarball/zipball.
