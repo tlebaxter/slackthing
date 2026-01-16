@@ -2,10 +2,11 @@
   "name": "slackthing",
   "version": "0.1.0",
   "description": "Slack integration for DeskThing",
-  "main": "server/index.js",
+  "main": "dist/server/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/server/index.js"
+    "start": "node dist/server/index.js",
+    "package": "npm run build && powershell Compress-Archive -Path dist, manifest.json, package.json -DestinationPath slackthing.zip -Force"
   },
   "dependencies": {
     "@slack/bolt": "^3.12.2",
