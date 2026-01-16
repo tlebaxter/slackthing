@@ -1,0 +1,14 @@
+{
+  "id": "slackthing",
+  "label": "SlackThing",
+  "version": "0.1.0",
+  "description": "View Slack messages and receive notifications on your DeskThing",
+  "author": "Trevan Baxter",
+  "platforms": [
+    "windows",
+    "linux",
+    "macos"
+  ],
+  "isAudioSource": false,
+  "requires": []
+}
